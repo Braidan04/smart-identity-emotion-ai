@@ -1,0 +1,660 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050505">
+
+    <title>Smart Identity &amp; Emotion AI</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <div class="brand-icon">AI</div>
+            <div>
+                <h2>SmartVision</h2>
+                <p>Intelligence Platform</p>
+            </div>
+        </div>
+
+        <nav class="navigation">
+            <a href="#dashboard" class="menu-item active">⌂ Dashboard</a>
+            <a href="#voice" class="menu-item">♫ Voice Recognition</a>
+            <a href="#face" class="menu-item">◎ Face Recognition</a>
+            <a href="#emotion" class="menu-item">✧ EmotionSense AI</a>
+            <a href="#vision" class="menu-item">▧ VisionSense AI</a>
+            <a href="#activity" class="menu-item">◷ AI Activity</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>SMART AI SYSTEM</p>
+            <span>One platform. Multiple intelligence tools.</span>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main" id="dashboard">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+
+            <div>
+                <p>AI INTELLIGENCE PLATFORM</p>
+                <h3>Smart Identity &amp; Emotion AI</h3>
+            </div>
+
+            <div class="profile">
+                <div class="profile-avatar">AI</div>
+                <div>
+                    <strong>AI Dashboard</strong>
+                    <p>Control Centre</p>
+                </div>
+            </div>
+
+        </header>
+
+
+        <!-- WELCOME -->
+        <section class="welcome">
+
+            <p class="eyebrow">INTELLIGENCE REIMAGINED</p>
+
+            <h1>
+                Welcome to your
+                <span>AI Control Centre.</span>
+            </h1>
+
+            <p>
+                Explore voice recognition, face verification, expression
+                analysis and intelligent image understanding in one platform.
+            </p>
+
+        </section>
+
+
+        <!-- FEATURE CARDS -->
+        <section class="cards">
+
+            <!-- VOICE RECOGNITION -->
+            <article class="card" id="voice">
+
+                <div class="card-top">
+                    <div class="feature-icon voice-icon">♫</div>
+                    <span class="feature-tag blue-tag">VOICE AI</span>
+                </div>
+
+                <h2>Voice Recognition</h2>
+
+                <p class="card-description">
+                    Recognise spoken words, convert speech into text,
+                    and work towards verifying an enrolled voice.
+                </p>
+
+                <div class="card-status">
+                    <span class="status-dot blue-dot"></span>
+                    <span>Ready to configure</span>
+                </div>
+
+                <a href="#activity" class="action-button voice-button">
+                    View Module →
+                </a>
+
+            </article>
+
+
+            <!-- FACE RECOGNITION -->
+            <article class="card" id="face">
+
+                <div class="card-top">
+                    <div class="feature-icon face-icon">◎</div>
+                    <span class="feature-tag blue-tag">FACE AI</span>
+                </div>
+
+                <h2>Face Recognition</h2>
+
+                <p class="card-description">
+                    Build face verification with camera access and
+                    appropriate liveness checks.
+                </p>
+
+                <div class="card-status">
+                    <span class="status-dot blue-dot"></span>
+                    <span>Ready to configure</span>
+                </div>
+
+                <a href="#activity" class="action-button face-button">
+                    View Module →
+                </a>
+
+            </article>
+
+
+            <!-- EMOTION SENSE AI -->
+            <article class="card" id="emotion">
+
+                <div class="card-top">
+                    <div class="feature-icon voice-icon">✧</div>
+                    <span class="feature-tag blue-tag">EMOTION AI</span>
+                </div>
+
+                <h2>EmotionSense AI</h2>
+
+                <p class="card-description">
+                    Estimate visible facial expressions and vocal cues.
+                    View analysis results and confidence scores.
+                </p>
+
+                <div class="card-status">
+                    <span class="status-dot blue-dot"></span>
+                    <span>Ready to configure</span>
+                </div>
+
+                <a href="#activity" class="action-button voice-button">
+                    View Module →
+                </a>
+
+            </article>
+
+
+            <!-- VISION SENSE AI -->
+            <article class="card" id="vision">
+
+                <div class="card-top">
+                    <div class="feature-icon face-icon">▧</div>
+                    <span class="feature-tag blue-tag">VISION AI</span>
+                </div>
+
+                <h2>VisionSense AI</h2>
+
+                <p class="card-description">
+                    Identify supported objects, explore image contents,
+                    recognise animals and extract text from documents.
+                </p>
+
+                <div class="card-status">
+                    <span class="status-dot blue-dot"></span>
+                    <span>Image analysis interface</span>
+                </div>
+
+                <a href="#image-analysis" class="action-button face-button">
+                    Explore Vision AI →
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- PROFESSIONAL VISION SENSE AI STUDIO -->
+        <section class="vision-studio" id="image-analysis">
+
+            <!-- STUDIO HEADER -->
+            <div class="vision-header">
+
+                <div>
+                    <span class="vision-overline">
+                        VISION INTELLIGENCE
+                    </span>
+
+                    <h2>
+                        VisionSense <span>AI Studio</span>
+                    </h2>
+
+                    <p>
+                        Turn images into meaningful information.
+                    </p>
+                </div>
+
+                <div class="vision-status">
+                    <span class="vision-status-dot"></span>
+                    IMAGE LAB
+                </div>
+
+            </div>
+
+
+            <!-- TWO-COLUMN WORKSPACE -->
+            <div class="vision-workspace">
+
+                <!-- IMAGE UPLOAD PANEL -->
+                <div class="vision-upload-panel" id="visionDropZone">
+
+                    <div class="vision-upload-content">
+
+                        <div class="vision-upload-icon">
+
+                            <svg viewBox="0 0 24 24"
+                                 fill="none"
+                                 stroke="currentColor"
+                                 stroke-width="1.5"
+                                 stroke-linecap="round"
+                                 stroke-linejoin="round"
+                                 aria-hidden="true">
+
+                                <rect x="3" y="3" width="18" height="18" rx="4"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <path d="M21 15l-5-5L5 21"/>
+
+                            </svg>
+
+                        </div>
+
+                        <h3>Bring your images to life</h3>
+
+                        <p class="vision-upload-description">
+                            Select a picture of an object, animal, document
+                            or everyday scene to get started.
+                        </p>
+
+                        <label for="imageInput" class="vision-upload-button">
+                            <span>＋</span>
+                            Select an image
+                        </label>
+
+                        <input
+                            type="file"
+                            id="imageInput"
+                            accept="image/jpeg,image/png,image/webp,image/gif"
+                            hidden
+                        >
+
+                        <p class="vision-file-hint">
+                            JPG, PNG, WEBP or GIF
+                            <span>·</span>
+                            Maximum 10 MB
+                        </p>
+
+                    </div>
+
+
+                    <!-- IMAGE PREVIEW -->
+                    <div id="imagePreviewContainer"
+                         class="vision-preview"
+                         hidden>
+
+                        <div class="vision-preview-heading">
+                            <div>
+                                <span class="vision-overline">
+                                    SELECTED IMAGE
+                                </span>
+
+                                <h3>Your image</h3>
+                            </div>
+
+                            <span class="vision-image-badge">
+                                <span class="vision-status-dot"></span>
+                                Ready
+                            </span>
+                        </div>
+
+                        <img
+                            id="imagePreview"
+                            alt="Preview of your selected image"
+                        >
+
+                        <div class="vision-preview-details">
+
+                            <div class="vision-file-details">
+                                <strong id="imageFileName">
+                                    Selected image
+                                </strong>
+
+                                <p id="imageFileSize"></p>
+                            </div>
+
+                            <button
+                                type="button"
+                                id="removeImage"
+                                class="vision-remove-button">
+                                Remove
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <p id="uploadMessage"
+                       class="vision-message"
+                       aria-live="polite">
+                        Your selected image will appear here.
+                    </p>
+
+                </div>
+
+
+                <!-- CAPABILITIES PANEL -->
+                <aside class="vision-capabilities">
+
+                    <div class="vision-capabilities-heading">
+                        <span class="vision-overline">
+                            WHAT YOU CAN EXPLORE
+                        </span>
+
+                        <h3>Image intelligence</h3>
+
+                        <p>
+                            Discover what your images may contain.
+                        </p>
+                    </div>
+
+
+                    <div class="vision-capability">
+
+                        <div class="vision-capability-icon">◈</div>
+
+                        <div>
+                            <h4>Object Recognition</h4>
+                            <p>
+                                Identify supported objects, products
+                                and everyday items.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="vision-capability">
+
+                        <div class="vision-capability-icon">◎</div>
+
+                        <div>
+                            <h4>Image Understanding</h4>
+                            <p>
+                                Explore visual details and generate
+                                descriptions of images.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="vision-capability">
+
+                        <div class="vision-capability-icon">T</div>
+
+                        <div>
+                            <h4>Text Extraction</h4>
+                            <p>
+                                Prepare documents, receipts and signs
+                                for optical character recognition.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="vision-coming-soon">
+                        <span class="vision-status-dot"></span>
+
+                        <span>
+                            AI processing integration is the next step.
+                        </span>
+                    </div>
+
+                </aside>
+
+            </div>
+
+
+            <!-- STUDIO FOOTNOTE -->
+            <div class="vision-studio-footer">
+                <span>VISION SENSE</span>
+
+                <p>
+                    Image preview is available now.
+                    AI identification and text extraction still need
+                    to be connected.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- SECURITY & AI INSIGHTS -->
+        <section class="activity-panel" id="activity">
+
+            <div class="section-heading">
+
+                <div>
+                    <h2>Security &amp; AI Insights</h2>
+                    <p>
+                        Your central space for system activity and results.
+                    </p>
+                </div>
+
+                <span class="feature-tag blue-tag">OVERVIEW</span>
+
+            </div>
+
+
+            <div class="activity-list">
+
+                <div class="activity-row">
+
+                    <div class="activity-symbol blue-symbol">♫</div>
+
+                    <div class="activity-info">
+                        <strong>Voice Recognition</strong>
+                        <p>Speech processing and voice verification</p>
+                    </div>
+
+                    <span class="status-label pending">Not connected</span>
+
+                </div>
+
+
+                <div class="activity-row">
+
+                    <div class="activity-symbol blue-symbol">◎</div>
+
+                    <div class="activity-info">
+                        <strong>Face Recognition</strong>
+                        <p>Face verification and liveness checks</p>
+                    </div>
+
+                    <span class="status-label pending">Not connected</span>
+
+                </div>
+
+
+                <div class="activity-row">
+
+                    <div class="activity-symbol blue-symbol">✧</div>
+
+                    <div class="activity-info">
+                        <strong>EmotionSense AI</strong>
+                        <p>Facial expression and vocal cue analysis</p>
+                    </div>
+
+                    <span class="status-label pending">Not connected</span>
+
+                </div>
+
+
+                <div class="activity-row">
+
+                    <div class="activity-symbol blue-symbol">▧</div>
+
+                    <div class="activity-info">
+                        <strong>VisionSense AI</strong>
+                        <p>Object identification and image understanding</p>
+                    </div>
+
+                    <span class="status-label pending">Not connected</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>
+                <span>Smart Identity &amp; Emotion AI</span>
+                · Built with Java, Spring Boot and AI technologies
+            </p>
+        </footer>
+
+    </main>
+
+</div>
+
+
+<!-- IMAGE PREVIEW FUNCTIONALITY -->
+<script>
+    const imageInput = document.getElementById("imageInput");
+    const imagePreview = document.getElementById("imagePreview");
+    const previewContainer =
+        document.getElementById("imagePreviewContainer");
+    const imageFileName = document.getElementById("imageFileName");
+    const imageFileSize = document.getElementById("imageFileSize");
+    const uploadMessage = document.getElementById("uploadMessage");
+    const removeImage = document.getElementById("removeImage");
+    const visionDropZone = document.getElementById("visionDropZone");
+
+    let currentImageUrl = null;
+
+    function formatFileSize(bytes) {
+        if (bytes < 1024 * 1024) {
+            return (bytes / 1024).toFixed(1) + " KB";
+        }
+
+        return (bytes / (1024 * 1024)).toFixed(2) + " MB";
+    }
+
+    function clearSelectedImage() {
+        imageInput.value = "";
+        imagePreview.removeAttribute("src");
+
+        previewContainer.hidden = true;
+
+        imageFileName.textContent = "";
+        imageFileSize.textContent = "";
+
+        if (currentImageUrl) {
+            URL.revokeObjectURL(currentImageUrl);
+            currentImageUrl = null;
+        }
+
+        visionDropZone.classList.remove("has-image");
+
+        uploadMessage.textContent =
+            "Your selected image will appear here.";
+    }
+
+    imageInput.addEventListener("change", function () {
+        const file = imageInput.files[0];
+
+        if (!file) {
+            return;
+        }
+
+        const allowedTypes = [
+            "image/jpeg",
+            "image/png",
+            "image/webp",
+            "image/gif"
+        ];
+
+        if (!allowedTypes.includes(file.type)) {
+            uploadMessage.textContent =
+                "Please choose a JPG, PNG, WEBP or GIF image.";
+
+            imageInput.value = "";
+            return;
+        }
+
+        if (file.size > 10 * 1024 * 1024) {
+            uploadMessage.textContent =
+                "This image is too large. Please choose an image under 10 MB.";
+
+            imageInput.value = "";
+            return;
+        }
+
+        if (currentImageUrl) {
+            URL.revokeObjectURL(currentImageUrl);
+        }
+
+        currentImageUrl = URL.createObjectURL(file);
+
+        imagePreview.src = currentImageUrl;
+        imageFileName.textContent = file.name;
+        imageFileSize.textContent = formatFileSize(file.size);
+
+        previewContainer.hidden = false;
+        visionDropZone.classList.add("has-image");
+
+        uploadMessage.textContent =
+            "Image selected successfully. AI analysis is not connected yet.";
+    });
+
+    removeImage.addEventListener("click", clearSelectedImage);
+
+    /* Optional drag-and-drop support */
+
+    visionDropZone.addEventListener("dragover", function (event) {
+        event.preventDefault();
+        visionDropZone.classList.add("drag-over");
+    });
+
+    visionDropZone.addEventListener("dragleave", function (event) {
+        if (!visionDropZone.contains(event.relatedTarget)) {
+            visionDropZone.classList.remove("drag-over");
+        }
+    });
+
+    visionDropZone.addEventListener("drop", function (event) {
+        event.preventDefault();
+        visionDropZone.classList.remove("drag-over");
+
+        const file = event.dataTransfer.files[0];
+
+        if (!file) {
+            return;
+        }
+
+        const allowedTypes = [
+            "image/jpeg",
+            "image/png",
+            "image/webp",
+            "image/gif"
+        ];
+
+        if (!allowedTypes.includes(file.type)) {
+            uploadMessage.textContent =
+                "Please drop a JPG, PNG, WEBP or GIF image.";
+            return;
+        }
+
+        if (file.size > 10 * 1024 * 1024) {
+            uploadMessage.textContent =
+                "This image is too large. Please choose an image under 10 MB.";
+            return;
+        }
+
+        const transfer = new DataTransfer();
+        transfer.items.add(file);
+        imageInput.files = transfer.files;
+
+        imageInput.dispatchEvent(new Event("change"));
+    });
+</script>
+
+</body>
+</html>
